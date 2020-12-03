@@ -1,0 +1,7 @@
+class address
+{
+  public static void main (String args[])
+  {
+    println("Hrid Patel");
+    println("24 Totten Drive");
+    println("Brampton, ON L6R 0P5");
