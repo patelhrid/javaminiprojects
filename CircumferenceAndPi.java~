@@ -1,0 +1,13 @@
+class CircumferenceAndPi
+{
+  public static void main (String args[])
+  {
+    double pi = 3.1415;
+    System.out.println("Pick a number to set the radius: ");
+    double radius = In.getDouble();
+    double circumference = (2*pi*radius);
+    doube area = (pi*math.pow(radius, 2));
+    System.out.println("The circumference is: " + circumference);
+    System.out.println("The area is: " + area);
+  }
+}

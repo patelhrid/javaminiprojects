@@ -1,0 +1,14 @@
+public class Continue {
+  
+  
+  public static void main(String[] args) { 
+    
+    System.out.println("Are you a human?");
+    char answer = In.getChar();
+    if (answer='y'||answer='Y'){
+      System.out.println("Sorry, I was looking for aliens.");
+    }
+    if
+    
+  }
+}
