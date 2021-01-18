@@ -1,0 +1,15 @@
+class Interactive
+{
+  public static void main
+  {
+    double pi = 3.1415;
+    System.out.println("Give me a word: ");
+    string word = In.getString();
+    System.out.println("Give me an integer: ");
+    int integer = In.getInt();
+    System.out.println("Give me a Unicode character number: ");
+    char character = In.getChar();
+    System.out.println("Give me a number ");
+    float number = In.getFloat();
+  }
+}
