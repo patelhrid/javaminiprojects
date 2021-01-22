@@ -1,0 +1,13 @@
+public class Prime {
+ 
+  public static void main(String[] args) { 
+    
+    System.out.println(Enter an integer: );
+    int number = In.getInt();
+    boolean prime = isPrime();
+    if number%2=1{
+      prime = true
+      System.out.println("Your number is prime");
+    }
+  }
+}
