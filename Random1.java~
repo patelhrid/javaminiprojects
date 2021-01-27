@@ -1,0 +1,9 @@
+
+public class Random1 {
+  
+  public static void main(String[] args) { 
+   
+    int random = ((6*Math.random()) + 1);
+    System.out.println(random);
+  }  
+}
