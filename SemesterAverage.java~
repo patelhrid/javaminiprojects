@@ -1,0 +1,20 @@
+class SemesterAverage
+{
+  public static void main (String args[])
+  {
+    double mark1 = In.getDouble();
+    System.out.println(mark1);
+    double mark2 = In.getDouble();
+    System.out.println(mark2);
+    double markTotal = (mark1+mark2);
+    System.out.println(markTotal);
+    double mark3 = In.getDouble();
+    System.out.println(mark3);
+    double mark4 = In.getDouble();
+    System.out.println(mark4);
+    markTotal = (markTotal+mark3+mark4);
+    System.out.println(markTotal);
+    double average = (markTotal/4);
+    System.out.println(average);
+  }
+}

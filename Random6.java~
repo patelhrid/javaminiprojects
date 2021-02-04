@@ -1,0 +1,15 @@
+public class Random6 {
+   
+  public static void main(String[] args) { 
+  
+  List listA = new ArrayList();
+  listA.add("A");
+  listA.add("B");
+  listA.add("C");
+  listA.add("D");
+  listA.add("E");
+  int randChoice = yourArray[Math.random()*listA];
+    
+  }
+  }
+  
