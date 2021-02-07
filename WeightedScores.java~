@@ -1,0 +1,16 @@
+public class WeightedScores {
+  
+  System.out.println("Enter test number:");
+  int testNumber = In.getInt();
+  switch (testNumber)
+  {
+    case 1:
+      System.out.println("Enter test score");
+      int score = In.getInt();
+      System.out.println("A score of " + score + " on test " + testNumber + " gives a weighted score of " + (score*0.1));
+  }
+  
+  public static void main(String[] args) { 
+    
+  }
+}
