@@ -1,0 +1,15 @@
+class Time
+{
+  public static void main (String arsg[])
+  {
+    System.out.println("Provide a time (hours here): ");
+    int hours = In.getInt();
+    System.out.println("Provide a time (minutes here): ");
+    int minutes = In.getInt();
+    System.out.println("Provide a time (seconds here): ");
+    int seconds = In.getInt();
+    minToHours = (minutes/hours);
+    
+    System.out.println(hours+minToHours);
+  }
+}

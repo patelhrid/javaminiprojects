@@ -1,0 +1,12 @@
+class Quadratic
+{
+  public static void main(String args[])
+  {
+    System.out.println("Provide an 'a' value");
+    double a = In.getDouble();
+    System.out.println("Provide an 'b' value");
+    double b = In.getDouble();
+    System.out.println("Provide an 'c' value");
+    double c = In.getDouble();
+    double root = (Math.sqrt((Math.pow(b, 2))-4*a*c);
+                   
