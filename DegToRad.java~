@@ -1,0 +1,12 @@
+class DegToRad
+{
+  public static void main (String args[])
+  {
+    double pi = 3.1415;
+    System.out.println("Provide an angle of degrees: ");
+    double deg = In.getDouble();
+    double rad = deg*pi/180;
+    System.out.printf("%.3f", rad);
+    System.out.print(" radians");
+  }
+} 
